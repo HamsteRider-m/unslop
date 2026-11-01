@@ -11,6 +11,7 @@ Go through every group and note each sign you find with where it lives. Each lin
 - Neon or high contrast colored borders → hairline at 6 to 10% opacity
 - Many near identical tints of the same hue for text, like five lavenders → three text roles from one neutral ramp
 - Every element highlighted, so nothing stands out → one accent used once or twice per screen
+- Warm or tinted ramp applied to background, cards, sidebar and inputs at once so the screen smears into one beige or blue field → tint at most one surface layer and keep cards `#ffffff` on light, or roll back to graphite
 - Glass cards with a white inner highlight and a colored shadow → plain raised surface with a hairline
 
 ## Type
@@ -57,6 +58,8 @@ Go through every group and note each sign you find with where it lives. Each lin
 - Every chart or stack in several shades of the accent, so nothing leads → neutral steps with the accent only on the one thing that matters
 - Sparklines, tallies or mini bars added to every stat card → the number, its label and its change
 - Equal cards side by side, each with the same chart or layout → one main chart, compact stats, varied widths
+- Long lists or work queues built as tall padded cards with a solid primary button on every row → compact hairline-divided rows, one primary action in the header, quiet secondary or hover actions per row
+- Sticky headers or toolbars with transparent backgrounds overlapping scrolled text, or fixed-height rows clipping copy → opaque background with a bottom hairline on sticky headers, truncation or clean wrap on text
 - Logo as a gradient tile with a sparkle and a gradient wordmark → product name as text plus a simple flat mark
 - Logo mark as a glossy orb, a gradient ball or a glowing dot → a flat glyph in one solid color, or the wordmark alone
 

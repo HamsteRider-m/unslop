@@ -78,7 +78,7 @@ If the product already has a real brand, like a logo file, a color or a typeface
 ## 2. Color
 
 - Build from one neutral ramp, tinted toward the world from the direction. Pick graphite, warm or ink from the tokens, or tint your own the same way. Background, raised surfaces, borders and text all come from that ramp.
-- In apps and dashboards the backgrounds, surfaces, borders and text stay neutral, the graphite ramp or something just as grey. People look at them for hours and the content has to carry the color. A screen whose background reads as orange, brown, blue or green has gone too far. The world shows in the accent, the charts and the moments, not in the surfaces. Landing pages can tint their surfaces further toward the world.
+- In apps and dashboards the backgrounds, surfaces, borders and text stay neutral, the graphite ramp or something just as grey. People look at them for hours and the content has to carry the color. A reading or writing app whose world is paper may use the warm ramp, but cap the tint at one surface layer: if the page background is warm, cards and sheets stay crisp `#ffffff` on light or step to neutral dark, never three surface layers each reading as tinted. If more than one surface layer reads as tinted, or the background reads as orange, brown, blue or green, roll back to graphite. Landing pages can tint their surfaces further toward the world.
 - Three text roles, primary, secondary and muted. Not ten slightly different lavenders.
 - In the chrome, one accent, used rarely. It marks the primary action, the selection or the one number that matters.
 - The moments from the direction are the exception. Inside them color can be rich, several hues in a chart, a rendered object with real materials, an image with its own light, as long as it stays inside the world and each color means something.
@@ -135,6 +135,7 @@ If the product already has a real brand, like a logo file, a color or a typeface
 - Navigation stays quiet. Logo, the existing links, one button. Log in is a quiet text link next to it, not a second button. A floating pill header is not required. On small screens the links collapse into one menu button.
 - Compose the first screen as a whole. The hero fills the viewport height without a dead empty band. If the content is shorter, center it or let the product view start low and run past the bottom edge, so the page invites a scroll.
 - On small screens everything stacks in reading order, the headline drops to the mobile size from the tokens and the visual comes after the actions. A dense preview gets simpler on mobile, with fewer rows and columns, instead of being zoomed down. No text in it goes below 11px.
+- Sticky and fixed headers have an opaque background and a bottom hairline. Scrolled content must not bleed through them.
 
 ## 7. Details
 
@@ -146,6 +147,7 @@ If the product already has a real brand, like a logo file, a color or a typeface
 - One accent per chart. The thing that matters, like the current month, the line you are tracking or the plan that grew, gets the accent, and everything else sits in neutral steps of the ramp. Several hues only when the chart really has to tell series apart, and even then one leads and the rest are quiet.
 - Stat cards are numbers. A label, a big figure and a change with what it compares to. No sparklines, tallies, mini bars or icons added to fill them, they read as decoration. A card can hold a real looking object when it is the very thing its number counts, like a paid receipt next to paid revenue or bank cards next to spend. Use as many as make sense for that dashboard, as long as each one reads on its own and none of them is a mini chart.
 - Vary the sizes. Cards of equal width side by side, each with the same kind of content, read as a template. Give the grid a rhythm, like three or four compact stats in a row above one wide chart, or a wide chart next to a narrow list.
+- Work queues, inboxes, feeds and long lists of five or more items use compact rows divided by hairlines, 40 to 56 tall, instead of separate padded cards with gaps. Never repeat a solid primary button on every row. One primary button lives in the page header or batch toolbar; per-row actions are quiet secondary buttons, muted icon buttons, or appear on hover and focus.
 - Pick the chart type for the data. A trend is a line, a comparison is bars, a share is one stacked bar or a list with bars, a single goal is a progress bar.
 - The active state is a small surface step with a hairline highlight, not a gradient with a glow.
 - Hover and focus states exist and stay inside the palette. A visible focus ring for keyboard users.
@@ -229,5 +231,7 @@ It adds a few minutes, so make it only when the user wants it.
 - [ ] Nested radii add up
 - [ ] A hero has a real visual or a product preview with at least one moment, never filler and never a labeled placeholder
 - [ ] The first screen is composed as a whole with no dead empty band
+- [ ] On app screens, at most one surface layer carries a warm or cool tint, and no solid primary button repeats across list rows
+- [ ] Scroll and overflow check: sticky or fixed headers and toolbars have an opaque background and border so scrolled content never bleeds through, and long titles or pills truncate or wrap without clipping
 - [ ] No looping or bouncy motion, one easing curve, no animated layout properties
 - [ ] Template check. If you swapped the product name for another product's, would the screen still fit? If yes, push the direction harder in the copy, the visual and the signature detail
