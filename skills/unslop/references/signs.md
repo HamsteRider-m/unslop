@@ -59,7 +59,7 @@ Go through every group and note each sign you find with where it lives. Each lin
 - Sparklines, tallies or mini bars added to every stat card → the number, its label and its change
 - Equal cards side by side, each with the same chart or layout → one main chart, compact stats, varied widths
 - Long lists or work queues built as tall padded cards with a solid primary button on every row → compact hairline-divided rows, one primary action in the header, quiet secondary or hover actions per row
-- Sticky headers or toolbars with transparent backgrounds overlapping scrolled text, or fixed-height rows clipping copy → opaque surface with a bottom hairline and `z-index` on sticky chrome, truncation or clean wrap on text
+- Sticky headers or toolbars with transparent backgrounds overlapping scrolled text, or fixed-height rows clipping copy → opaque background with a bottom hairline on sticky headers, truncation or clean wrap on text
 - Logo as a gradient tile with a sparkle and a gradient wordmark → product name as text plus a simple flat mark
 - Logo mark as a glossy orb, a gradient ball or a glowing dot → a flat glyph in one solid color, or the wordmark alone
 

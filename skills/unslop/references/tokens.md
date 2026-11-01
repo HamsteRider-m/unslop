@@ -20,11 +20,11 @@ Starting values for each pass. When the project already has a good system, keep 
 - Navigation rows 32 to 36, gap 2 to 4, section labels 24 above and 8 below.
 - Stat cards in a row share one height, usually 3 or 4 compact cards per row on desktop, numbers only.
 - The main chart spans at least two thirds of the content width and is 280 to 360 tall. A second data block next to it is a list or table, narrower, not another chart.
-- Work queues, inboxes and long lists: rows 40 to 56 tall with 0 gap and a 1px hairline divider, horizontal padding 12 to 16, row actions 28 to 32 tall in secondary or ghost style.
+- Work queues, inboxes and long lists: rows 40 to 56 tall for single-line or compact two-column rows, richer rows with two lines of text and multiple actions size to content, typically 64 to 80, with 0 gap and a 1px hairline divider, horizontal padding 12 to 16, row actions 28 to 32 tall in secondary or ghost style.
 
 ## Neutral ramps
 
-For apps and dashboards use graphite, or a ramp just as grey, for every surface. For landing pages pick the ramp whose tint matches the world in the direction. Warm suits paper, wood, food, craft and anything human. Ink suits night, sky, water and anything technical. On light app screens that use the warm ramp for a paper world, keep cards `#ffffff` so the page background carries the warmth alone and surfaces do not smear into one beige field. You can tint your own ramp the same way, keeping saturation very low, so a surface never reads as a color on its own.
+For apps and dashboards use graphite, or a ramp just as grey, for every surface. For landing pages pick the ramp whose tint matches the world in the direction. Warm suits paper, wood, food, craft and anything human. Ink suits night, sky, water and anything technical. On light app screens that use the warm ramp for a paper world, keep cards `#ffffff` so the page background carries the warmth alone and surfaces do not smear into one beige field. On landing pages the warm card value `#fdfbf7` is still appropriate; the `#ffffff` card rule applies to app screens only. You can tint your own ramp the same way, keeping saturation very low, so a surface never reads as a color on its own.
 
 ### Dark
 
@@ -67,7 +67,7 @@ Semantic colors, toned to sit inside any ramp: positive #4cc38a on dark and #16a
 - Hero buttons 44 to 48 tall, navigation buttons 32 to 36, padding 16 to 20 on the sides.
 - Primary on dark: an off white from the ramp with dark text, or the accent. Primary on light: the primary text color as a fill with white text, or the accent.
 - Secondary: the raised surface with a hairline, primary text.
-- At most one solid primary button per view. Actions repeated across rows or cards use secondary, ghost or hover-revealed icon buttons, 28 to 32 tall.
+- Avoid repeating a solid primary button across list rows or cards. In a list, one primary action lives in the page header or batch toolbar; per-row actions are secondary, ghost or hover-revealed icon buttons, 28 to 32 tall.
 - A soft top highlight like `inset 0 1px 0 rgba(255,255,255,0.12)` on dark buttons gives depth without a glow.
 
 ## Type families
